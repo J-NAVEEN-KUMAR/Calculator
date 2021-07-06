@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #d8f3dc;
+  font-size: 16px;
+}
+
+.calculator{
+  width: 300px;
+  height: auto;
+  background-color: #40916c;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 10px 10px teal;
+}
+
+.display{
+  margin: 40px 0;
+  width: 250px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.btn{
+  border-radius: 50%;
+  margin: 10px;
+  color: white;
+}
+.btn-primary{
+  background-color: black;
+}
+.btn-warning{
+  color: black;
+}
+.btn:focus{
+  outline: none;
+}
+.btn.active{
+  background-color: black;
+}
